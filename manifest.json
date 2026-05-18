@@ -1,0 +1,14 @@
+{
+  "name": "Operation Motorsport",
+  "short_name": "OpMo",
+  "description": "Supporting veterans through motorsport — programs, events, and how to get involved.",
+  "start_url": ".",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0d1117",
+  "theme_color": "#0d1117",
+  "icons": [
+    { "src": "favicon.ico", "sizes": "48x48", "type": "image/x-icon" },
+    { "src": "OpMo_eMotorsport_League_red_TPBG_NEG.png", "sizes": "any", "type": "image/png" }
+  ]
+}
