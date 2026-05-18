@@ -1,6 +1,6 @@
-const CACHE = 'opmo-org-v2';
+const CACHE = 'opmo-org-v3';
 const ASSETS = ['./', './index.html', './manifest.json',
-  './OpMo_eMotorsport_League_red_TPBG_NEG.png', './Spa-2.jpg', './favicon.ico'];
+  './opmo-logo.png', './Spa-2.jpg', './favicon.ico'];
 
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(ASSETS)).catch(() => {}));
