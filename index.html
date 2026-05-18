@@ -307,21 +307,6 @@ body {
         </div>
       </div>
 
-      <div class="program-card">
-        <div class="program-header" onclick="toggleProgram(this)">
-          <div class="program-icon">🚦</div>
-          <div class="program-info">
-            <div class="program-name">Operation Motorsport Racing</div>
-            <div class="program-tag">Competitive Racing · US &amp; Canada</div>
-          </div>
-          <svg class="program-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="6 9 12 15 18 9"/></svg>
-        </div>
-        <div class="program-body">
-          <p>Empowering medically discharged service members and veterans through competitive motorsport experiences across the US and Canada — with all travel, accommodation, safety equipment, and logistical costs fully funded.</p>
-          <p style="font-style:italic;color:var(--accent);">"The most meaningful experience to be part of a team again."</p>
-        </div>
-      </div>
-
     </section>
 
     <!-- EVENTS -->
@@ -382,9 +367,16 @@ body {
             <div class="detail-value">CrowdStrike · AWS · Michelin · Mobil 1 · Sunoco Race Fuels</div>
           </div>
         </div>
+        <div class="detail-row" style="padding-bottom:0;">
+          <div class="detail-icon">🔗</div>
+          <div>
+            <div class="detail-label">Official Page</div>
+            <div class="detail-value"><a href="https://operationmotorsport.org/veterans-race-of-remembrance/" target="_blank" rel="noopener" style="color:var(--accent);text-decoration:none;font-weight:600;">operationmotorsport.org/veterans-race-of-remembrance ↗</a></div>
+          </div>
+        </div>
       </div>
 
-      <a href="https://www.operationmotorsport.org/veterans-race-of-remembrance/" target="_blank" rel="noopener" class="btn btn-primary" style="display:flex;margin-top:4px;">Learn More &amp; Register ↗</a>
+      <a href="https://operationmotorsport.org/veterans-race-of-remembrance/" target="_blank" rel="noopener" class="btn btn-primary" style="display:flex;margin-top:4px;">Learn More &amp; Register ↗</a>
     </section>
 
     <!-- CONNECT -->
@@ -427,6 +419,58 @@ body {
         </a>
       </div>
 
+    </section>
+
+    <!-- APPLY -->
+    <section class="tab" id="tab-apply">
+      <div class="donate-hero">
+        <div style="font-size:36px;margin-bottom:12px;">📋</div>
+        <div class="donate-title">Apply to a Program</div>
+        <div class="donate-sub">Operation Motorsport programs are open to medically releasing service members and veterans of the US or Canadian Armed Forces with a service-connected disability.</div>
+      </div>
+
+      <div class="sec-label">Eligibility</div>
+      <div class="card card-body" style="margin-bottom:12px;">
+        <div class="detail-row" style="padding-top:0;">
+          <div class="detail-icon">✅</div>
+          <div>
+            <div class="detail-label">Service Requirement</div>
+            <div class="detail-value">Any branch of the US or Canadian Armed Forces</div>
+          </div>
+        </div>
+        <div class="detail-row">
+          <div class="detail-icon">🏥</div>
+          <div>
+            <div class="detail-label">Medical Requirement</div>
+            <div class="detail-value">Medically releasing service member or veteran with a service-connected disability</div>
+          </div>
+        </div>
+        <div class="detail-row" style="padding-bottom:0;">
+          <div class="detail-icon">📅</div>
+          <div>
+            <div class="detail-label">Time Since Service</div>
+            <div class="detail-value">Within 10 years of leaving service — longer gaps considered case by case</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="sec-label">Available Programs</div>
+      <div class="card card-body" style="margin-bottom:12px;">
+        <div style="display:flex;flex-wrap:wrap;gap:8px;">
+          <span class="program-stat">Motorsport Immersion</span>
+          <span class="program-stat">Diversionary Therapy</span>
+          <span class="program-stat">eMotorsports</span>
+          <span class="program-stat">Academy</span>
+          <span class="program-stat">Veterans Race of Remembrance</span>
+        </div>
+      </div>
+
+      <a href="https://operationmotorsport.org/apply/" target="_blank" rel="noopener" class="btn btn-primary" style="display:flex;margin-bottom:10px;">Apply Now ↗</a>
+
+      <div class="card card-body" style="text-align:center;">
+        <div style="font-size:13px;color:var(--muted);line-height:1.6;">Questions about eligibility or the application process?</div>
+        <a href="mailto:info@operationmotorsport.org" style="display:block;margin-top:10px;color:var(--accent);font-weight:700;font-size:13px;text-decoration:none;">info@operationmotorsport.org</a>
+      </div>
     </section>
 
     <!-- DONATE -->
@@ -480,6 +524,10 @@ body {
     <button class="nav-btn" onclick="showTab('connect',this)">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
       Connect
+    </button>
+    <button class="nav-btn" onclick="showTab('apply',this)">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+      Apply
     </button>
     <button class="nav-btn" onclick="showTab('donate',this)">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
