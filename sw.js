@@ -1,4 +1,4 @@
-const CACHE = 'opmo-org-v5';
+const CACHE = 'opmo-org-v6';
 const ASSETS = ['./', './index.html', './manifest.json',
   './23_OpMo_logo_signet_White_Lettering.png', './Spa-2.jpg', './favicon.ico'];
 
